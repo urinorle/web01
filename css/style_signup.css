@@ -1,0 +1,128 @@
+body {
+    background-color: #dfdbd8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header {
+    background-color: #565c5e;
+    color: #dfdbd8;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #455954;
+    color: #dfdbd8;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #b5c2c7;
+    text-decoration: none;
+    margin: 0 15px;
+}
+#nav-left {
+    flex-direction: row;
+}
+#nav-rigth {
+    flex-direction: row;
+}
+.reqlogin {
+    border: 7px solid #565c5e;
+    background-color: #b5c2c7;
+    width: 40%;
+    border-radius: 8%;
+    margin: 30px auto auto;
+}
+
+#icon-pers {
+    border-radius: 50%;
+    border: 8px solid #455954;
+}
+
+.img1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    text-align: center;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, sans-serif;
+}
+
+.button1 {
+    margin: 20px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 40px;
+    transition: .4s;
+    background-color: #455954;
+    color: #dfdbd8;
+}
+
+.button1:hover {
+    background-color: #9d7463;
+    color: #dfdbd8;
+}
+
+.reqtext {
+    padding: 10px;
+    width: 90%;
+    margin: 10px;
+    transition: .4s;
+    border-radius: 20px;
+    background-color: #dfdbd8;
+}
+
+.reqtext:hover {
+    background-color: #9d7463;
+}
+
+.container1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #0099cc;
+    padding: 2px;
+    display: inline-block;
+}
+footer {
+    background-color: #9d7463;
+    color: #dfdbd8;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .reqlogin {
+        width: 90%;
+    }
+    .reqtext {
+        width: 80%;
+    }
+    .button1 {
+        width: 60%;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}

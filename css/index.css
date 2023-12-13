@@ -1,0 +1,152 @@
+body {
+    background-color: #dfdbd8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+#logo {
+    width: 400px;
+}
+header {
+    background-color: #565c5e;
+    color: #dfdbd8;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #455954;
+    color: #dfdbd8;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #b5c2c7;
+    text-decoration: none;
+    margin: 0 15px;
+}
+#nav-left {
+    flex-direction: row;
+}
+#nav-rigth {
+    flex-direction: row;
+}
+.sub-tit {
+    text-align: center;
+}
+main {
+    background-color: #dfdbd8;
+    padding: 20px;
+
+}
+.work {
+    border: 4px solid #455954;
+    padding: 1%;
+    width: 30%;
+    flex-direction: row;
+    margin-top: 40px;
+    background-color: #b5c2c7;
+    margin-right: 4px;
+}
+.work a {
+    color: inherit;
+    text-decoration: none;
+}
+.work:hover {
+    background-color: darkseagreen;
+    transition: linear 0.75s;
+}
+.tabla {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.logo {
+    width: 85px;
+}
+.sub-req {
+    font-size: 85%;
+}
+.ciudades {
+    background-color: rgba(168, 194, 153, 0.49);
+    border-radius: 10%;
+    border: 4px solid #455954;
+    padding: 1%;
+    width: 20%;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-right: 42px;
+    text-align: center;
+}
+.img-ciudades {
+    width: 80%;
+    border-radius: 10%;
+    border: 4px solid rgba(168, 194, 153, 0.49);
+}
+
+footer {
+    background-color: #9d7463;
+    color: #dfdbd8;
+    text-align: center;
+    padding: 10px;
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    margin-bottom: 900px;
+}
+
+.item {
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+.item h4 {
+    color: #333333;
+    margin: 0;
+}
+
+.item p {
+    color: #666666;
+    margin: 5px 0;
+}
+
+.item a {
+    color: #0099ff;
+    text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    .work {
+        width: 60%;
+        margin-left: 70px;
+    }
+    .tabla {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+    .ciudades {
+        width: 350px;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .img-ciudades {
+        width: 250px;
+    }
+}

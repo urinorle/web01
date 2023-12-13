@@ -1,0 +1,85 @@
+body {
+    background-color: #dfdbd8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+#logo {
+    width: 400px;
+}
+header {
+    background-color: #565c5e;
+    color: #dfdbd8;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #455954;
+    color: #dfdbd8;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    color: #b5c2c7;
+    text-decoration: none;
+    margin: 0 15px;
+}
+#nav-left {
+    flex-direction: row;
+}
+#nav-rigth {
+    flex-direction: row;
+}
+.sub-tit {
+    text-align: center;
+}
+.oferta {
+    margin-left: 30px;
+    margin-right: 750px;
+}
+.logo {
+    width: 100px;
+}
+footer {
+    background-color: #9d7463;
+    color: #dfdbd8;
+    text-align: center;
+    padding: 10px;
+
+}
+.boton {
+    display: block;
+    color: white;
+    background-color: #9d7463;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+
+}
+@media screen and (max-width: 700px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+        padding: 0;
+    }
+    .work {
+        width: 60%;
+        margin-left: 70px;
+    }
+    .tabla {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+    .oferta {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}

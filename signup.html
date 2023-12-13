@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style_login.css">
+    <link rel="stylesheet" href="css/style_signup.css">
+</head>
+<body>
+<header>
+    <a href="index.html"><img id="logo" src="img/logo.png" alt="logo"></a>
+</header>
+
+<nav>
+    <div id="nav-left">
+        <a href="index.html">Inici</a>
+        <a href="">Ofertes Feina</a>
+        <a href="">Contacte</a>
+    </div>
+    <div id="nav-rigth">
+        <a href="login.html">Login</a>
+        <a href="signup.html">Signup</a>
+    </div>
+</nav>
+
+<div class="reqlogin">
+<form>
+    <div class="img1">
+        <h1>Signup</h1>
+        <img id="icon-pers" src="img/iconper.jpeg" alt="icon">
+    </div>
+    <div class="login">
+
+            <span id="tex">
+                <span>
+                    <label for="nombre"><b>Nom</b></label>
+                    <input class="reqtext req req1" type="text" id="nombre" placeholder="Introdueix l'usuari" required>
+                </span>
+                <span>
+                    <label for="apellidos"><b>Cognom</b></label>
+                    <input class="reqtext req req2" type="text" id="apellidos" placeholder="Introdueix l'usuari" required>
+                </span>
+            </span>
+
+
+            <span id="tex2">
+                <span>
+                    <label for="password"><b>Contrasenya</b></label>
+                    <input class="reqtext req" type="password" id="password" placeholder="Introdueix l'usuari" required>
+                </span>
+                <span>
+                    <label for="repetir-password"><b>Repeteix la contrasenya</b></label>
+                    <input class="reqtext req" type="password" id="repetir-password" placeholder="Introdueix l'usuari" required>
+                </span>
+            </span>
+
+
+
+            <label for="usuario"><b>Usuari</b></label>
+            <input class="reqtext" type="text" id="usuario" placeholder="Introdueix l'usuari" required>
+
+            <label for="email"><b>E-mail</b></label>
+            <input class="reqtext" type="email" id="email" placeholder="Introdueix l'usuari" required>
+
+        <button class="button1" type="submit">Alta</button>
+    </div>
+
+    <div class="container1">
+        <p>Ja ets usuari? <a href="login.html">Login</a></p>
+    </div>
+
+</form>
+</div>
+
+<footer>
+    &copy; 2023 WorkTry
+</footer>
+
+</body>
+</html>
